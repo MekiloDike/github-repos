@@ -8,7 +8,7 @@ const GitHubRepos = () => {
   useEffect(() => {
     const fetchRepos = async () => {
       try {
-        const response = await fetch(`https://api.github.com/users/Nyelus101/repos?page=${page}&per_page=5`);
+        const response = await fetch(`https://api.github.com/users/MekiloDike/repos?page=${page}&per_page=5`);
         if (!response.ok) {
           throw new Error('Failed to fetch repositories');
         }
